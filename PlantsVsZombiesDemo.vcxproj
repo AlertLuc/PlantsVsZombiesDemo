@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8A6540AC-6A95-423D-8BB2-B80D656D9E9B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>My23飞机大战开发</RootNamespace>
+    <ProjectName>PlantsVsZombiesDemo</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BulletBox\Bullet.cpp" />
+    <ClCompile Include="BulletBox\BulletBox.cpp" />
+    <ClCompile Include="CactusBox\Cactus.cpp" />
+    <ClCompile Include="CactusBox\CactusBox.cpp" />
+    <ClCompile Include="CactusshellBox\Cactusshell.cpp" />
+    <ClCompile Include="CactusshellBox\CactusshellBox.cpp" />
+    <ClCompile Include="CardBackGround\CardBackGround.cpp" />
+    <ClCompile Include="CardBackGround\CardBackGroundBox.cpp" />
+    <ClCompile Include="Cherry\Cherry.cpp" />
+    <ClCompile Include="Cherry\CherryBox.cpp" />
+    <ClCompile Include="DollyBox\Dolly.cpp" />
+    <ClCompile Include="DollyBox\DollyBox.cpp" />
+    <ClCompile Include="GameFrame\main.cpp" />
+    <ClCompile Include="nut\Nut.cpp" />
+    <ClCompile Include="nut\NutBox.cpp" />
+    <ClCompile Include="PlantBox\Peashooter.cpp" />
+    <ClCompile Include="PlantBox\PlantBox.cpp" />
+    <ClCompile Include="PlantsVsZombiesApp\PlantsVsZombiesApp.cpp" />
+    <ClCompile Include="PlantsVsZombiesBackGround\PlantsVsZombiesBackGrond.cpp" />
+    <ClCompile Include="ShopBackGround\ShopBackGround.cpp" />
+    <ClCompile Include="Shovel\Shovel.cpp" />
+    <ClCompile Include="Sunflower\Sunflower.cpp" />
+    <ClCompile Include="Sunflower\SunflowerBox.cpp" />
+    <ClCompile Include="Sun\Sun.cpp" />
+    <ClCompile Include="Sun\SunBox.cpp" />
+    <ClCompile Include="ZombieBox\BuckteHeadZombie.cpp" />
+    <ClCompile Include="ZombieBox\ConeHeadZombie.cpp" />
+    <ClCompile Include="ZombieBox\FlagZombie.cpp" />
+    <ClCompile Include="ZombieBox\OrdinaryZombie.cpp" />
+    <ClCompile Include="ZombieBox\RugbyZombie.cpp" />
+    <ClCompile Include="ZombieBox\Zombie.cpp" />
+    <ClCompile Include="ZombieBox\ZombieBox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BulletBox\Bullet.h" />
+    <ClInclude Include="BulletBox\BulletBox.h" />
+    <ClInclude Include="CactusBox\Cactus.h" />
+    <ClInclude Include="CactusBox\CactusBox.h" />
+    <ClInclude Include="CactusshellBox\Cactusshell.h" />
+    <ClInclude Include="CactusshellBox\CactusshellBox.h" />
+    <ClInclude Include="CardBackGround\CardBackGround.h" />
+    <ClInclude Include="CardBackGround\CardBackGroundBox.h" />
+    <ClInclude Include="Cherry\Cherry.h" />
+    <ClInclude Include="Cherry\CherryBox.h" />
+    <ClInclude Include="DollyBox\Dolly.h" />
+    <ClInclude Include="DollyBox\DollyBox.h" />
+    <ClInclude Include="GameConfig\GameConfig.h" />
+    <ClInclude Include="GameFrame\GameFrame.h" />
+    <ClInclude Include="nut\Nut.h" />
+    <ClInclude Include="nut\NutBox.h" />
+    <ClInclude Include="PlantBox\Peashooter.h" />
+    <ClInclude Include="PlantBox\PlantBox.h" />
+    <ClInclude Include="PlantsVsZombiesApp\PlantsVsZombiesApp.h" />
+    <ClInclude Include="PlantsVsZombiesBackGround\PlantsVsZombiesBackGrond.h" />
+    <ClInclude Include="ShopBackGround\ShopBackGround.h" />
+    <ClInclude Include="Shovel\Shovel.h" />
+    <ClInclude Include="Sunflower\Sunflower.h" />
+    <ClInclude Include="Sunflower\SunflowerBox.h" />
+    <ClInclude Include="Sun\Sun.h" />
+    <ClInclude Include="Sun\SunBox.h" />
+    <ClInclude Include="ZombieBox\BuckteHeadZombie.h" />
+    <ClInclude Include="ZombieBox\ConeHeadZombie.h" />
+    <ClInclude Include="ZombieBox\FlagZombie.h" />
+    <ClInclude Include="ZombieBox\OrdinaryZombie.h" />
+    <ClInclude Include="ZombieBox\RugbyZombie.h" />
+    <ClInclude Include="ZombieBox\Zombie.h" />
+    <ClInclude Include="ZombieBox\ZombieBox.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameFrame">
+      <UniqueIdentifier>{653304c3-ab34-430d-a413-d148e4724368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameConfig">
+      <UniqueIdentifier>{12281450-e925-46d2-a48c-d2557f1d79d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sun">
+      <UniqueIdentifier>{7f3390fc-65dc-4b3e-ae7a-3003163e0c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlantsVsZombiesBackGround">
+      <UniqueIdentifier>{0a64d3aa-9b4c-4830-8960-ec3d8a7c73d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlantBox">
+      <UniqueIdentifier>{e050b55b-f43d-468d-a54b-0dd81f39b369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BulletBox">
+      <UniqueIdentifier>{2f47ad7a-5699-4c33-8e0e-b49fb1d56807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ZombieBox">
+      <UniqueIdentifier>{f686a651-113f-4e08-9853-9b71b16eb8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlantsVsZombiesApp">
+      <UniqueIdentifier>{bcf3651f-485a-4fa6-8eea-889d5a965f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShopBackGround">
+      <UniqueIdentifier>{42441807-f13a-4872-be71-3b204082e4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CardBackGround">
+      <UniqueIdentifier>{62d1e112-e422-449d-b992-8d3e6baed97c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sunflower">
+      <UniqueIdentifier>{40a560bb-5be5-4d86-819e-fdf2f40f2b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CactusBox">
+      <UniqueIdentifier>{3f8ccd13-9433-492c-81b1-52048f9986a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CactusshellBox">
+      <UniqueIdentifier>{cbd27827-7713-4926-90ab-9d84c695a6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DollyBox">
+      <UniqueIdentifier>{5e3879d0-2d8b-403c-ac7f-b0fe4325bb08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nut">
+      <UniqueIdentifier>{5ba6b33b-7e22-4e05-9faa-d2ea82016911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cherry">
+      <UniqueIdentifier>{80e7c32f-fe51-4deb-adb5-32c4401079c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sun\Shovel">
+      <UniqueIdentifier>{d62902cb-3426-4101-b1ef-a0c31306d361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameFrame\main.cpp">
+      <Filter>GameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun\Sun.cpp">
+      <Filter>Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun\SunBox.cpp">
+      <Filter>Sun</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantsVsZombiesBackGround\PlantsVsZombiesBackGrond.cpp">
+      <Filter>PlantsVsZombiesBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantBox\Peashooter.cpp">
+      <Filter>PlantBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantBox\PlantBox.cpp">
+      <Filter>PlantBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBox\Bullet.cpp">
+      <Filter>BulletBox</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBox\BulletBox.cpp">
+      <Filter>BulletBox</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantsVsZombiesApp\PlantsVsZombiesApp.cpp">
+      <Filter>PlantsVsZombiesApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\BuckteHeadZombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\ConeHeadZombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\OrdinaryZombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\Zombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\ZombieBox.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ShopBackGround\ShopBackGround.cpp">
+      <Filter>ShopBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CardBackGround\CardBackGround.cpp">
+      <Filter>CardBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CardBackGround\CardBackGroundBox.cpp">
+      <Filter>CardBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\FlagZombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="ZombieBox\RugbyZombie.cpp">
+      <Filter>ZombieBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunflower\Sunflower.cpp">
+      <Filter>Sunflower</Filter>
+    </ClCompile>
+    <ClCompile Include="Sunflower\SunflowerBox.cpp">
+      <Filter>Sunflower</Filter>
+    </ClCompile>
+    <ClCompile Include="CactusBox\Cactus.cpp">
+      <Filter>CactusBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CactusBox\CactusBox.cpp">
+      <Filter>CactusBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CactusshellBox\Cactusshell.cpp">
+      <Filter>CactusshellBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CactusshellBox\CactusshellBox.cpp">
+      <Filter>CactusshellBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DollyBox\Dolly.cpp">
+      <Filter>DollyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DollyBox\DollyBox.cpp">
+      <Filter>DollyBox</Filter>
+    </ClCompile>
+    <ClCompile Include="nut\Nut.cpp">
+      <Filter>nut</Filter>
+    </ClCompile>
+    <ClCompile Include="nut\NutBox.cpp">
+      <Filter>nut</Filter>
+    </ClCompile>
+    <ClCompile Include="Cherry\Cherry.cpp">
+      <Filter>Cherry</Filter>
+    </ClCompile>
+    <ClCompile Include="Cherry\CherryBox.cpp">
+      <Filter>Cherry</Filter>
+    </ClCompile>
+    <ClCompile Include="Shovel\Shovel.cpp">
+      <Filter>Sun\Shovel</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameFrame\GameFrame.h">
+      <Filter>GameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig\GameConfig.h">
+      <Filter>GameConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun\Sun.h">
+      <Filter>Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun\SunBox.h">
+      <Filter>Sun</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantsVsZombiesBackGround\PlantsVsZombiesBackGrond.h">
+      <Filter>PlantsVsZombiesBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantBox\Peashooter.h">
+      <Filter>PlantBox</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantBox\PlantBox.h">
+      <Filter>PlantBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBox\Bullet.h">
+      <Filter>BulletBox</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBox\BulletBox.h">
+      <Filter>BulletBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\BuckteHeadZombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\ConeHeadZombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\OrdinaryZombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\Zombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\ZombieBox.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopBackGround\ShopBackGround.h">
+      <Filter>ShopBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CardBackGround\CardBackGround.h">
+      <Filter>CardBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantsVsZombiesApp\PlantsVsZombiesApp.h">
+      <Filter>PlantsVsZombiesApp</Filter>
+    </ClInclude>
+    <ClInclude Include="CardBackGround\CardBackGroundBox.h">
+      <Filter>CardBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\FlagZombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="ZombieBox\RugbyZombie.h">
+      <Filter>ZombieBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunflower\Sunflower.h">
+      <Filter>Sunflower</Filter>
+    </ClInclude>
+    <ClInclude Include="Sunflower\SunflowerBox.h">
+      <Filter>Sunflower</Filter>
+    </ClInclude>
+    <ClInclude Include="CactusBox\Cactus.h">
+      <Filter>CactusBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CactusBox\CactusBox.h">
+      <Filter>CactusBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CactusshellBox\Cactusshell.h">
+      <Filter>CactusshellBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CactusshellBox\CactusshellBox.h">
+      <Filter>CactusshellBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DollyBox\Dolly.h">
+      <Filter>DollyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="DollyBox\DollyBox.h">
+      <Filter>DollyBox</Filter>
+    </ClInclude>
+    <ClInclude Include="nut\Nut.h">
+      <Filter>nut</Filter>
+    </ClInclude>
+    <ClInclude Include="nut\NutBox.h">
+      <Filter>nut</Filter>
+    </ClInclude>
+    <ClInclude Include="Cherry\Cherry.h">
+      <Filter>Cherry</Filter>
+    </ClInclude>
+    <ClInclude Include="Cherry\CherryBox.h">
+      <Filter>Cherry</Filter>
+    </ClInclude>
+    <ClInclude Include="Shovel\Shovel.h">
+      <Filter>Sun\Shovel</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
